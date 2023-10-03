@@ -2,7 +2,7 @@
 
 # Dynamic Website Project
 
-![Website Preview](screenshots/website_preview.png)
+![Website Preview](Screenshots/website_preview.png)
 
 This is a dynamic website project featuring a responsive design with the following components:
 
