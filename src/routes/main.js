@@ -26,14 +26,14 @@ routes.get("/gallery", async(req,res)=>{
         details:details
     })
 });
-
+//process contact form
 routes.post("/process-contact-form",async(request,response) =>{
      console.log("Form is submitted");
      console.log(request.body);
      //save the data
      try {
-        const contact = await Contact.create(request.body)
-        console.log("123",contact)
+        const data = await Contact.create(request.body)
+        console.log("123",data)
             response.redirect("/")
      } catch (error) {
         console.log(error)

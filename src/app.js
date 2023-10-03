@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({
 }))
 app.use('/static',express.static("public"))
 app.use('',routes);
-
+ 
 
 //(template engine)
 app.set('view engine','hbs')
